@@ -1,0 +1,56 @@
+.index-wrap {
+  height: 100vh;
+  padding: 20px 0 0;
+  color: #fff;
+  text-align: center;
+  background-color: #d3d3d3;
+  .currtemp {
+    // text-align: center;
+    font-size: 54px;
+  }
+  a{
+    color: #fff;
+    text-decoration:none;
+  }
+  .city {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .weather,
+  .daytemp {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .info {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .other-wrap {
+    display: flex;
+    .other-info {
+      flex: 1;
+      border-right: 1px solid #fff;
+      &:last-child {
+        border-right: none;
+      }
+      .other-date {
+        margin-bottom: 10px;
+      }
+      .other-weather {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        img {
+          margin-right: 10px;
+        }
+        .other-daytemp {
+          // flex: 1;
+          // text-align: left;
+        }
+      }
+    }
+  }
+}
